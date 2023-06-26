@@ -1,0 +1,109 @@
+// solutions 和 products 总列表页
+.page-list-container
+  background #f6f6f6
+  .radio-wrapper
+    margin-top 48px
+    margin-bottom 52px
+    display flex
+    align-items center
+    input
+      width: 10px
+      height: 10px
+      box-shadow: inset 0.6px 0.8px 5px 0 rgba(136, 136, 136, 0.5)
+      border: solid 1px #cccccc
+      background-color: #ffffff
+      border-radius 100%
+    label
+      margin-left: 5px
+      margin-right 24px
+      margin-bottom 0
+      line-height: 1
+      font-size: 13px
+      letter-spacing: -0.16px
+      color: #666666
+  .list-wrapper
+    display flex
+    flex-wrap wrap
+    .item-box
+      position relative
+      display flex
+      flex-direction column
+      width: 30%
+      background-color: #ffffff
+      padding-bottom 17px
+      cursor pointer
+      margin-right 5%
+      &:nth-child(3n)
+        margin-right 0
+      &:nth-child(n + 4)
+        margin-top 30px
+      .item-article
+        display flex
+        flex-direction column
+        figure
+          display flex
+          justify-content center
+          align-items center
+          max-height 250px
+          overflow: hidden
+          @media (max-width: 767px)
+            max-height 300px
+        img
+          width: 100%
+          height: auto
+          min-height: 150px
+          flex-shrink 0
+      .box-title
+        font-family: inherit
+        font-size: 18px
+        font-weight: bold
+        line-height: 1.39
+        letter-spacing: -0.23px
+        color: #333333
+        margin: 50px 40px 15px 16px
+        @media (min-width: 768px) and (max-width: 1024px)
+          font-size 16px
+      .box-content
+        font-family: OpenSans
+        font-size: 13px
+        line-height: 1.54
+        letter-spacing: -0.16px
+        color: #777777
+        margin: 0 40px 5px 16px
+        overflow hidden
+        text-overflow ellipsis
+      .read-more
+        align-self flex-end
+        font-family: OpenSans
+        font-size: 13px
+        letter-spacing: -0.16px
+        color: #777777
+        margin-top 20px
+        margin-right 14px
+        &:hover
+          color: #006db7
+        span:hover
+          color: #006db7
+
+  .pagination-wrapper
+    padding 48px 0 68px
+    .pagination
+      justify-content flex-end
+@media (min-width: 768px)
+  .page-list-container
+    .list-wrapper .item-box .box-title
+      margin-top 36px
+    .pagination
+      justify-content center
+@media (max-width: 767px)
+  .page-list-container
+    .radio-wrapper
+      margin-top 20px
+      margin-bottom 20px
+    .list-wrapper
+      justify-content center
+      .item-box
+        width 85%
+        margin-top 30px
+        .box-title
+          margin-top 24px

@@ -1,0 +1,29 @@
+// solutions 和 products 子列表页
+.page-category-container
+  background #efefef
+  .container
+    display flex
+    padding-top: 70px
+  .category-container
+    display flex
+    flex-direction column
+    width: 70%
+    @media (max-width: 767px)
+      width: 100%
+  .list-wrapper
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+  .pagination-wrapper
+    padding 48px 0 68px
+    .pagination
+      justify-content flex-end
+  figure>img
+    width: auto
+
+@media (max-width: 767px)
+  .page-category-container
+    .container
+      padding-top 40px
+    .left-top-line
+      margin-top 40px

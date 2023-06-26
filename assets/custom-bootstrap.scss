@@ -1,0 +1,15 @@
+// Your variable overrides
+$blue: #008fd7;
+$link-hover-color: #008fd7;
+
+$enable-rounded: false;
+$enable-validation-icons: false;
+
+$bv-enable-table-stacked: false;
+$bv-enable-table-sticky: false;
+$bv-enable-tooltip-variants: false;
+$bv-enable-popover-variants: false;
+
+// Then include the following
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';

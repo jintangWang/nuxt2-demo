@@ -1,0 +1,117 @@
+/*
+    Author     : Pixel Industry
+    Website    : www.pixel-industry.com
+*/
+a,
+address,
+body,
+div,
+h1,
+h3,
+h4,
+header,
+html,
+img,
+li,
+nav,
+p,
+section,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+header,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+*:focus {
+  outline: 0;
+  text-decoration: none;
+}
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: 0;
+}
+
+body {
+  font-size: 13px;
+  line-height: 22px;
+  color: #777;
+  background-color: #fff;
+}
+
+p,
+a,
+span {
+  color: #777;
+  line-height: 22px;
+}
+a {
+  -webkit-transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  -ms-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  text-decoration: none;
+}
+
+h3, h4, h5 {
+  color: #333333;
+}
+
+h1, h2, h3, h4{
+  font-weight: 800;
+  margin-bottom: 25px;
+  margin-top: 0;
+  color: #333;
+}
+
+h1{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h3{
+  font-size: 21px;
+  line-height: 24px;
+}
+
+h4{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  backface-visibility: hidden;
+  float: right;
+}
+
+@media (min-width: 1025px) {
+  a:hover {
+    text-decoration: none;
+  }
+}

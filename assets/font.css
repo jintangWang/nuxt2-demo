@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Raleway-Bold';
+  unicode-range: U+41-7B;
+  src: url('./font/Raleway/Raleway-Bold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway-ExtraBold';
+  src: url('./font/Raleway/Raleway-ExtraBold.ttf');
+  unicode-range: U+41-7B;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  unicode-range: U+41-7B;
+  src: url('./font/Raleway/Raleway-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  unicode-range: U+41-7B;
+  src: url('./font/Raleway/Raleway-SemiBold.ttf');
+  font-display: swap;
+}
